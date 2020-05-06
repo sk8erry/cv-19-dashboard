@@ -1,0 +1,47 @@
+.side-bar__logo-container {
+	display: flex;
+	margin-left: 30px;
+	color: #4455ab;
+	margin-top: 35px;
+}
+
+.side-bar__upper-text {
+	font-size: 28px;
+	line-height: 32px;
+	color: #4455ab;
+	font-weight: 600;
+}
+
+.side-bar__lower-text {
+	font-size: 17px;
+	line-height: 25px;
+	margin-top: 5px;
+	background-color: pink;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.side-bar__logo {
+	color: #4455ab;
+	font-size: 60px;
+}
+
+.side-bar__nav-item {
+	margin-left: 25px;
+	color: #4455ab;
+	margin-top: 20px;
+	font-size: 18px;
+	letter-spacing: 1px;
+	border-radius: 3px;
+	padding: 10px;
+}
+
+.side-bar__nav-item:hover {
+	background-color: #f5f8fe;
+	cursor: pointer;
+}
+
+.side-bar__nav-icon {
+	display: inline-block;
+	margin-right: 8px;
+}
