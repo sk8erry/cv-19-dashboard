@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Chart } from 'react-google-charts'
-import { Card, Grid, Table, Label } from 'semantic-ui-react'
+import { Card, Grid, Table } from 'semantic-ui-react'
 import './CountryOverview.css'
 
 const CountryOverview = (props: any) => {
@@ -55,7 +55,7 @@ const CountryOverview = (props: any) => {
 						>
 							<h3>Top Cases</h3>
 							<Table basic="very" size="large" singleLine>
-								<Table.Body>
+								<Table.Body className="country__overview-table">
 									{topCases?.slice(0, 5).map((data: any, i: number) => (
 										<Table.Row key={data.CountryCode}>
 											<Table.Cell>
@@ -73,7 +73,7 @@ const CountryOverview = (props: any) => {
 							</Table>
 							<h3>Top Deaths</h3>
 							<Table basic="very" size="large" singleLine>
-								<Table.Body>
+								<Table.Body className="country__overview-table">
 									{topDeaths?.slice(0, 5).map((data: any, i: number) => (
 										<Table.Row key={data.CountryCode}>
 											<Table.Cell>

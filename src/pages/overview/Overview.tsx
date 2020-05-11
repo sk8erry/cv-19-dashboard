@@ -7,8 +7,6 @@ import CaseRatio from './CaseRatio'
 import CountryOverview from './CountryOverview'
 import Resources from './Resources'
 
-const OverviewContext = React.createContext(null)
-
 const Overview = () => {
 	const [overviewData, setOverviewData] = useState<Summary | null>(null)
 	const [cardData, setCardData] = useState<any>([])

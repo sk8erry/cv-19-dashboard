@@ -5,3 +5,7 @@
 	border-radius: 6px;
 	margin-right: 7px;
 }
+
+.country__overview-table td:nth-child(2) {
+	text-align: right !important;
+}

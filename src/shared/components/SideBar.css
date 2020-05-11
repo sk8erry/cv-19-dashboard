@@ -41,6 +41,11 @@
 	cursor: pointer;
 }
 
+.side-bar__nav-item-active {
+	background-color: #f5f8fe;
+	cursor: pointer;
+}
+
 .side-bar__nav-icon {
 	display: inline-block;
 	margin-right: 8px;
